@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Form Example</title>
+    
+</head>
+<body>
+
+<div class="container">
+    <h2>Complete Form Example</h2>
+    <form action="#" method="POST">
+        
+        <!-- Text Input -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <!-- Password Input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter a strong password" required>
+
+        <!-- Number Input -->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="100">
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <!-- Checkbox -->
+        <label>Skills:</label>
+        <input type="checkbox" id="html" name="skills" value="HTML">
+        <label for="html">HTML</label>
+        <input type="checkbox" id="css" name="skills" value="CSS">
+        <label for="css">CSS</label>
+        <input type="checkbox" id="js" name="skills" value="JavaScript">
+        <label for="js">JavaScript</label>
+
+        <!-- Select Dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="">Select Country</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Canada">Canada</option>
+        </select>
+
+        <!-- Textarea -->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Write your message here..."></textarea>
+
+        <!-- File Upload -->
+        <label for="resume">Upload Resume:</label>
+        <input type="file" id="resume" name="resume">
+
+        <!-- Date Input -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+
+        <!-- Range Slider -->
+        <label for="satisfaction">Satisfaction Level:</label>
+        <input type="range" id="satisfaction" name="satisfaction" min="0" max="10">
+
+        <!-- Hidden Input -->
+        <input type="hidden" name="user_id" value="12345">
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+
+        <!-- Reset Button -->
+        <button type="reset" style="background: #dc3545; margin-left: 10px;">Reset</button>
+    
+    </form>
+</div>
+
+</body>
+</html>

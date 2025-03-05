@@ -1,7 +1,3 @@
-Here's your updated **1-week HTML & CSS schedule** with **Day 3 adjusted** and **Day 6 left empty**:  
-
----
-
 ### **🔹 Day 1: HTML Basics**  
 ✔️ Understanding the structure of an HTML document  
 ✔️ Common tags: `<html>`, `<head>`, `<body>`, `<title>`  
